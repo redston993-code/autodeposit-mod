@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "autodeposit",
+  "version": "1.0.0",
+  "name": "Auto Deposit",
+  "description": "Automatically deposits specified items into nearby chests",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.autodeposit.AutoDepositMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
